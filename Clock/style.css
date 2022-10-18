@@ -1,0 +1,46 @@
+
+
+body{
+    background-color: rgb(139, 114, 240);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    position: relative;
+}
+
+.clock-face{
+    width: 20rem;
+    height: 20rem;
+    background-color: rgb(19, 135, 21);
+    border-radius: 50%;
+}
+
+.hand{
+    width: 50%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+}
+.hour{
+    border-radius: 5rem;
+    height: 7px;
+    transform: rotate(45deg);
+}
+
+.min{
+    border-radius: 5rem;
+    height: 5px;
+    transform: rotate(190deg);
+}
+
+.second{
+    border-radius: 5rem;
+    height: 3px;
+    transform: rotate(90deg);
+}
+
